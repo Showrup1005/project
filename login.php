@@ -60,6 +60,7 @@ if(isset($_POST['login']))
         $_SESSION['security_login_status']="loged in";
         header("Location:security/home.php");
     }
+    abcd;
     else if(mysqli_num_rows($em)>0)
     {
         $_SESSION['user_id']=$id;
